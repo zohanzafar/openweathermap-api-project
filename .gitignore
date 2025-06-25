@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# pipenv, poetry
+Pipfile.lock
+poetry.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.mo
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# FastAPI static and logs
+logs/
+*.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Eggs
+*.egg
+*.egg-info/
+.eggs/
+
+# Pydantic compiled models
+*.msgpack
+
+# Testing output
+test-results/
+tests/__pycache__/
+
+# wheel files
+*.whl
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Lock files
+poetry.lock
+Pipfile.lock
+
+# Editor backups
+*.swp
+*.swo
